@@ -31,10 +31,10 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: snowdenmoses/demoBackend:latest
+          tags: snowdenmoses/demobackend:latest
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
           context: ./nginx
           push: true
-          tags: snowdenmoses/demoNginx:latest
+          tags: snowdenmoses/demonginx:latest
